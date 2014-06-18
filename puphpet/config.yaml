@@ -34,7 +34,7 @@ vagrantfile-local:
         synced_folder:
             3QeIOzJEoMtg:
                 source: ../
-                target: /var/www/vagrant
+                target: /var/www
                 nfs: 'true'
         usable_port_range: 2200..2250
     ssh:
